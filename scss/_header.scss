@@ -1,0 +1,41 @@
+.fylo_landing_page__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.fylo_landing_page__header_logo__image {
+    max-width: 50%;
+}
+
+.fylo_landing_page__menu_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.fylo_landing_page__menu_header {
+    position: absolute;
+    right: 0;
+}
+
+.fylo_landing_page__menu_header_list {
+    padding-inline-end: 32px;
+}
+
+.fylo_landing_page__menu_header_list:nth-of-type(3) {
+    padding-inline-end: 10px;
+}
+
+@media(max-width: 340px) {
+    .fylo_landing_page__menu_header {
+        position: absolute;
+        right: 4%;
+        top: 52%;
+    }
+}
