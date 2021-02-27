@@ -4,9 +4,15 @@ body {
 
 html {
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   color: white; }
+
+h2 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 20px; }
 
 li {
   list-style: none; }
@@ -14,6 +20,10 @@ li {
 a {
   text-decoration: none;
   color: #ffffff; }
+
+figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0; }
 
 img {
   max-width: 100%;
@@ -25,7 +35,9 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  position: relative; }
+  position: relative;
+  padding-inline-end: 25px;
+  padding-inline-start: 25px; }
 
 .fylo_landing_page__header_logo__image {
   max-width: 50%; }
@@ -44,6 +56,10 @@ img {
 .fylo_landing_page__menu_header_list {
   padding-inline-end: 32px; }
 
+.fylo_landing_page__menu_header_list__image:hover {
+  text-decoration: underline;
+  color: #ffffff; }
+
 .fylo_landing_page__menu_header_list:nth-of-type(3) {
   padding-inline-end: 10px; }
 
@@ -52,3 +68,95 @@ img {
     position: absolute;
     right: 4%;
     top: 52%; } }
+
+.fylo_landing_page_content {
+  padding-inline-end: 25px;
+  padding-inline-start: 25px; }
+
+.fylo_landing_page_content__files {
+  text-align: center; }
+
+.fylo_landing_page_content__files__security {
+  padding-block-end: 48px;
+  padding-block-start: 32px; }
+
+.fylo_landing_page_content__files__article_header__fugure {
+  padding-block-end: 32px; }
+
+.fylo_landing_page_content__files__article__link_wrapper {
+  padding-block-end: 72px;
+  padding-block-start: 72px; }
+
+.fylo_landing_page_content__files__article__link {
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  padding-inline-start: 80px;
+  padding-inline-end: 80px;
+  border-radius: 42px;
+  font-size: 18px; }
+
+.fylo_landing_page_content__files__article__link:hover {
+  background: skyblue; }
+
+.fylo_landing_page_content__files__security_description {
+  padding-block-start: 48px;
+  padding-block-end: 48px; }
+
+.fylo_landing_page_content__files__security_description__figure {
+  padding-block-end: 16px; }
+
+.fylo_landing_page_stay_productive__article {
+  padding-block-end: 64px; }
+
+.fylo_landing_page_stay_productive__heading__figure {
+  padding-block-end: 48px;
+  padding-block-start: 32px; }
+
+.fylo_landing_page_stay_productive__article__link_wrapper {
+  padding-block-end: 48px; }
+
+.fylo_landing_page_stay_productive__article__link {
+  color: #65e2d9;
+  font-size: 15px;
+  border-block-end: 1px solid;
+  padding-block-end: 8px; }
+
+.fylo_landing_page_stay_productive__article__testimonials {
+  background-image: url("../images/bg-quotes.png");
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position-y: 3.5%;
+  padding-block-start: 64px;
+  padding-block-end: 64px;
+  font-size: 14px; }
+
+.fylo_landing_page_stay_productive__article__testimonials__quotes_wrapper {
+  background-color: rgba(39, 39, 75, 0.596);
+  padding-block-end: 32px;
+  padding-block-start: 32px;
+  padding-inline-end: 32px;
+  padding-inline-start: 32px;
+  margin-block-end: 48px; }
+
+.fylo_landing_page_stay_productive__article__testimonials__profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center; }
+
+.fylo_landing_page_stay_productive__article__testimonials__profile_wrapper {
+  margin-inline-start: -73px;
+  margin-block-start: -5px; }
+
+.fylo_landing_page_stay_productive__article__testimonials__profile__profile_photo {
+  max-width: 30%;
+  border-radius: 50px; }
+
+.fylo_landing_page_stay_productive__article__testimonials__profile__name {
+  font-weight: 700;
+  font-size: 16px; }
+
+.fylo_landing_page_stay_productive__article__testimonials__profile__job {
+  font-size: 12px;
+  margin-block-start: -14px; }

@@ -1,0 +1,68 @@
+.fylo_landing_page_stay_productive__article {
+    padding-block-end: 64px;
+}
+
+
+.fylo_landing_page_stay_productive__heading__figure {
+    padding-block-end: 48px;
+    padding-block-start: 32px;
+}
+
+.fylo_landing_page_stay_productive__article__link_wrapper {
+    padding-block-end: 48px;
+}
+
+.fylo_landing_page_stay_productive__article__link {
+    color: hsl(176, 68%, 64%);
+    font-size: 15px;
+    border-block-end: 1px solid;
+    padding-block-end: 8px;
+}
+
+.fylo_landing_page_stay_productive__article__testimonials {
+    background-image: url("../images/bg-quotes.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position-y: 3.5%;
+    padding-block-start: 64px;
+    padding-block-end: 64px;
+    font-size: 14px;
+}
+
+//Profiles
+
+.fylo_landing_page_stay_productive__article__testimonials__quotes_wrapper {
+    background-color: rgba(39, 39, 75, 0.596);
+    padding-block-end: 32px;
+    padding-block-start: 32px;
+    padding-inline-end: 32px;
+    padding-inline-start: 32px;
+    margin-block-end: 48px;
+}
+
+.fylo_landing_page_stay_productive__article__testimonials__profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.fylo_landing_page_stay_productive__article__testimonials__profile_wrapper {
+    margin-inline-start: -73px;
+    margin-block-start: -5px;
+}
+
+.fylo_landing_page_stay_productive__article__testimonials__profile__profile_photo {
+    max-width: 30%;
+    border-radius: 50px;
+}
+
+.fylo_landing_page_stay_productive__article__testimonials__profile__name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.fylo_landing_page_stay_productive__article__testimonials__profile__job {
+    font-size: 12px;
+    margin-block-start: -14px;
+}
