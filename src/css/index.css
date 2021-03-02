@@ -160,3 +160,32 @@ img {
 .fylo_landing_page_stay_productive__article__testimonials__profile__job {
   font-size: 12px;
   margin-block-start: -14px; }
+
+.fylo_landing_page__get_access {
+  text-align: center;
+  background-color: rgba(39, 39, 75, 0.596);
+  padding: 20px;
+  margin-inline-start: -13px;
+  margin-inline-end: -13px; }
+
+.fylo_landing_page__get_access__form_input {
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  width: 90%;
+  margin-block-start: 19px;
+  margin-block-end: 43px;
+  border-radius: 42px;
+  font-size: 18px;
+  text-align: center;
+  border: none; }
+
+.fylo_landing_page__get_access__form_button {
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  font-size: 17px;
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  margin-block-end: 32px;
+  width: 90%;
+  border-radius: 42px;
+  color: #ffffff;
+  border: none; }
