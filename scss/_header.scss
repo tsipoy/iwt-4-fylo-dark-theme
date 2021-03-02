@@ -46,3 +46,10 @@
         top: 52%;
     }
 }
+
+@media(min-width: 800px) {
+    .fylo_landing_page__header {
+        max-width: 1200px;
+        margin: auto;
+    }   
+}

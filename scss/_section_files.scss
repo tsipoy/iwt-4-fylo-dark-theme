@@ -17,15 +17,14 @@
 }
 
 .fylo_landing_page_content__files__article__link {
-    background: linear-gradient(to right,  hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     padding-block-start: 20px;
     padding-block-end: 20px;
     padding-inline-start: 80px;
     padding-inline-end: 80px;
     border-radius: 42px;
-    font-size: 18px;    
+    font-size: 18px;
 }
-
 
 .fylo_landing_page_content__files__article__link:hover {
     background: skyblue;
@@ -38,4 +37,21 @@
 
 .fylo_landing_page_content__files__security_description__figure {
     padding-block-end: 16px;
+}
+
+@media (min-width: 800px) {
+    .fylo_landing_page_content__files__header,
+    .fylo_landing_page_content__files__article {
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .fylo_landing_page_content__files__security {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: baseline;
+        column-gap: 100px;
+        margin: auto;
+        max-width: 900px;
+    }
 }

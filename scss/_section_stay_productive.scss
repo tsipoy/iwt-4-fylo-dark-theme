@@ -1,18 +1,17 @@
-.fylo_landing_page_stay_productive__article {
-    padding-block-end: 64px;
-}
-
-
-.fylo_landing_page_stay_productive__heading__figure {
+.fylo_landing_page_stay_productive__header__figure {
     padding-block-end: 48px;
     padding-block-start: 32px;
 }
 
-.fylo_landing_page_stay_productive__article__link_wrapper {
+.fylo_landing_page_stay_productive__article__header {
+    padding-block-end: 64px;
+}
+
+.fylo_landing_page_stay_productive__article__header__link_wrapper {
     padding-block-end: 48px;
 }
 
-.fylo_landing_page_stay_productive__article__link {
+.fylo_landing_page_stay_productive__article__header__link {
     color: hsl(176, 68%, 64%);
     font-size: 15px;
     border-block-end: 1px solid;
@@ -65,4 +64,15 @@
 .fylo_landing_page_stay_productive__article__testimonials__profile__job {
     font-size: 12px;
     margin-block-start: -14px;
+}
+
+@media (min-width: 800px) {
+    .fylo_landing_page_stay_productive__header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        grid-gap: 100px;
+        margin: auto;
+        max-width: 1100px;
+    }
 }
