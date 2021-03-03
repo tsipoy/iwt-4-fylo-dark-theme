@@ -18,6 +18,10 @@
     padding-block-end: 8px;
 }
 
+.fylo_landing_page_stay_productive__article__header__link:hover {
+    color: #ffffff;
+}
+
 .fylo_landing_page_stay_productive__article__testimonials {
     background-image: url("../images/bg-quotes.png");
     background-size: 10%;
@@ -67,6 +71,11 @@
 }
 
 @media (min-width: 800px) {
+    .fylo_landing_page_stay_productive__article__testimonials {
+        background-size: 4%;
+        background-position-y: 10%;
+    }
+
     .fylo_landing_page_stay_productive__header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -74,5 +83,19 @@
         grid-gap: 100px;
         margin: auto;
         max-width: 1100px;
+    }
+
+    .fylo_landing_page_stay_productive__article__testimonials {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        max-width: 1100px;
+        padding-inline-end: 16px;
+        padding-inline-start: 16px;
+    }
+
+    .fylo_landing_page_stay_productive__article__testimonials__quotes_wrapper:nth-of-type(2) {
+        margin-inline-end: 48px;
+        margin-inline-start: 48px;
     }
 }

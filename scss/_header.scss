@@ -30,7 +30,11 @@
     padding-inline-end: 32px;
 }
 
-.fylo_landing_page__menu_header_list__image:hover {
+.fylo_landing_page__menu_header_list__link {
+    color: #d3cdcd;
+}
+
+.fylo_landing_page__menu_header_list__link:hover {
     text-decoration: underline;
     color: #ffffff;
 }

@@ -26,10 +26,42 @@
     margin-block-end: 32px;
     width: 90%;
     border-radius: 42px;
+    cursor: pointer;
     color: #ffffff;
     border: none;
 }
 
 .fylo_landing_page__get_access__form_button:hover {
     background: skyblue;
+}
+
+@media (min-width: 800px) {
+    .fylo_landing_page__get_access {
+        margin: auto;
+        max-width: 800px;
+        padding-inline-end: 48px;
+        padding-inline-start: 48px;
+    }
+
+    .fylo_landing_page__get_access__header_description {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .fylo_landing_page__get_access__form {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding-block-start: 16px;
+    }
+
+    .fylo_landing_page__get_access__form_input {
+        text-align: start;
+        padding-inline-start: 48px;
+    }
+
+    .fylo_landing_page__get_access__form_button {
+        width: 40%;
+        margin-inline-start: 32px;
+    }
 }
